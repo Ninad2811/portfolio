@@ -7,7 +7,7 @@ import { ProjectDetail } from './pages/ProjectDetail';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="/portfolio">
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
